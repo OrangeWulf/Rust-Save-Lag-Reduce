@@ -17,7 +17,7 @@ namespace Oxide.Plugins
             var list = plugins.GetAll();
             timer.Repeat(3f, list.Length, () =>
             {
-                var plugin = list[last];
+                var plugin = list[last++];
                 plugin.CallHook("OnCustomSave");
             });
         }
