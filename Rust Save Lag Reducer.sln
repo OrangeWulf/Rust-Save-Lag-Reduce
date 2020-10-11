@@ -1,0 +1,13 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rust Save Lag Reducer", "Rust Save Lag Reducer.csproj", "{62467305-6DFA-4B1A-BB63-192CCE7DA931}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62467305-6DFA-4B1A-BB63-192CCE7DA931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62467305-6DFA-4B1A-BB63-192CCE7DA931}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
