@@ -1,6 +1,9 @@
 # Rust Save Lag Reduce
 Application to modify plugins and reduce save lag spikes
 
+## How it works
+A lot of servers lagging when map is saving. That happens because a lot of developers using `OnServerSave` hook, but they dont keep in mind that there can be more than 15 plugins using that on same time. My tool is replacing all of that hooks with custom ones, and calling data save after map save in 3 seconds for plugin in a list (3s - plugin - 3s - plugin - etc)
+
 ## How to use
 
 Step 1: Download last release on the right
