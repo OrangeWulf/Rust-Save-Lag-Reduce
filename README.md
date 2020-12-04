@@ -8,7 +8,7 @@ My tool is replacing all of that hooks with custom ones, and calling data save a
 
 ## How to use
 
-Step 1: Download last release on the right
+Step 1: Download last release at [Click on me](https://github.com/OrangeWulf/Rust-Save-Lag-Reduce/releases/latest)
 
 Step 2: Download all your plugins to special folder and add there `RustSaveLagReduce.exe`
 
